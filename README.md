@@ -1,1 +1,1 @@
-# Some random uni stuff
+# Uni stuff
