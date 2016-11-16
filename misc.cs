@@ -26,7 +26,7 @@ namespace info1
             Console.Read();
         }
 
-        static bool cntTo13 = true;
+        //static bool cntTo13 = true;
         static bool afternoon = false;
         static int value = 12;
 
@@ -34,22 +34,22 @@ namespace info1
         {
             value++;
 
-            if (cntTo13)
-            {
+             //if (cntTo13)
+            //{
                 if (value == 13)
                 {
                     value = 1;
-                    cntTo13 = false;
+                    //cntTo13 = false;
                 }
-            }
-            else
-            {
+            //}
+            //else
+            //{
                 if (value == 12)
                 {
-                    cntTo13 = true;
+                    //cntTo13 = true;
                     afternoon = !afternoon;
                 }
-            }
+            //}
 
             Console.WriteLine(value + (afternoon ? " pm" : " am"));
         }
